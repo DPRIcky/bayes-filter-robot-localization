@@ -124,12 +124,12 @@ source install/setup.bash
 
 **Terminal 1 — Stage + Filter + RViz:**
 ```bash
-ROS_DOMAIN_ID=9 ros2 launch ras598_assignment_3 bayes_launch.py
+ros2 launch ras598_assignment_3 bayes_launch.py
 ```
 
 **Terminal 2 — Teleop:**
 ```bash
-ROS_DOMAIN_ID=9 ros2 run teleop_twist_keyboard teleop_twist_keyboard
+ros2 run teleop_twist_keyboard teleop_twist_keyboard
 ```
 
 ---
